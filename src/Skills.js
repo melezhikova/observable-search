@@ -10,7 +10,6 @@ export default function Skills() {
     const handleSearch = evt => {
         const { value } = evt.target;
         dispatch(changeSearchField(value));
-        console.log(store.getState());
     };
 
     const hasQuery = search.trim() !== '';
